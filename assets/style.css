@@ -1,5 +1,5 @@
 a {
-    margin: 60px;
+    margin-left: 60px;
     color: #ccc;
 }
 
@@ -87,6 +87,12 @@ body {
 
 #copy {
     text-align: center;
+
+}
+
+#facebook {
+    height: 30px;
+    width: 30px;
 }
 
 .footer {
@@ -143,6 +149,11 @@ header {
    
 }
 
+#instagram {
+    height: 30px;
+    width: 30px;
+}
+
 main {
     background-color: #777;
     border-width: 5px;
@@ -153,3 +164,4 @@ main {
     text-align: center;
     padding-bottom: 300px;
 }
+
