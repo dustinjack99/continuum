@@ -1,0 +1,64 @@
+body {
+    background-image: url("../assets/images/background-holder.jpg");
+}
+
+.bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.bio-head {
+    padding-left: 30px;
+}
+
+.bio-pic {
+   height: 420px;
+   margin: auto;
+   position: static;
+   padding: 20px 50px 20px 80px;
+   width: 280px;
+
+}
+
+.calender {
+ 
+}
+
+.footer {
+    background-color: #777;
+    border: teal solid;
+    border-width: 5px;
+    color: #ccc;
+    margin-top: 100px;
+}
+
+header {
+    background-color: #777;
+    border: teal solid;
+    border-width: 5px;
+    color: #ccc;
+    margin-bottom: 100px;
+    width: 100%;
+   
+}
+
+#header-logo {
+    height: 50px;
+    width: 35px;
+}
+
+.header-nav {
+    float: right;
+}
+
+main {
+    background-color: #777;
+    border-width: 5px;
+    border: teal solid;
+    color: #ccc;
+    margin: auto;
+    width: 60%;
+}
