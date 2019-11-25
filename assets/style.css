@@ -1,3 +1,16 @@
+a {
+    margin: 60px;
+    color: #ccc;
+}
+
+article {
+    margin: 20px;
+    background-color: #777;
+    border: teal solid;
+    border-width: 5px;
+
+}
+
 body {
     background-image: url("../assets/images/background-holder.jpg");
 }
@@ -7,24 +20,73 @@ body {
     font-size: 15px;
     line-height: 30px;
     text-align: center;
-    
+
 }
 
 .bio-head {
     padding-left: 30px;
+    padding-bottom: 10px;
+    border: #ccc solid; 
+    border-width: 0px 0px 3px 0px;
 }
 
 .bio-pic {
    height: 420px;
-   margin: auto;
-   position: static;
-   padding: 20px 50px 20px 80px;
+   padding: 20px;
    width: 280px;
 
 }
 
+.bio-shell {
+    background-color: #777;
+    border-width: 5px;
+    border: teal solid;
+    color: #ccc;
+    margin: auto;
+    width: 600px;
+    padding: 10px 30px 30px;
+}
+
+.blog-post {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 60%;
+}
+
+.blog-nav {
+
+}
+
 .calender {
- 
+    width: 100%;
+    height: 600px;
+    
+}
+
+.cal-head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    text-align: center;
+    color: #ccc;
+
+}
+
+.cal-shell {
+    background-color: #777;
+    border-width: 5px;
+    border: teal solid;
+    padding: 10px 30px 30px;
+    width: 65%;
+    margin: auto;
+
+}
+
+#copy {
+    text-align: center;
 }
 
 .footer {
@@ -33,6 +95,12 @@ body {
     border-width: 5px;
     color: #ccc;
     margin-top: 100px;
+    margin-bottom: -50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 header {
@@ -40,7 +108,10 @@ header {
     border: teal solid;
     border-width: 5px;
     color: #ccc;
+    margin-top: -15px;
+    margin-left: -15px;
     margin-bottom: 100px;
+    padding-left: 20px;
     width: 100%;
    
 }
@@ -48,10 +119,28 @@ header {
 #header-logo {
     height: 50px;
     width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 125px;
 }
 
-.header-nav {
-    float: right;
+.head-nav {
+    position: absolute;
+    right: 60px;
+    top: 45px;
+    color: #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.head-text {
+    left: 100px;
+    color: #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
 
 main {
@@ -61,4 +150,6 @@ main {
     color: #ccc;
     margin: auto;
     width: 60%;
+    text-align: center;
+    padding-bottom: 300px;
 }
